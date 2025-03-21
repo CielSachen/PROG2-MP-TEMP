@@ -1,0 +1,12 @@
+# Checking-in and Checking-out
+*             text=auto
+*.c           text diff=cpp
+*.h           text diff=cpp
+*.json        text
+*.md          text diff=markdown
+*.txt         text
+.clang-format text
+
+# Archive Creation
+.gitattributes export-ignore
+.gitignore     export-ignore

@@ -1,0 +1,16 @@
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# CMake
+build/
+
+# Documentation (TEMPORARY)
+node_modules/
+package.json
+pnpm-lock.yaml
+Doxyfile
+
+# Miscellaneous
+**/.DS_Store

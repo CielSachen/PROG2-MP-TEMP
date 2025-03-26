@@ -1,0 +1,16 @@
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Compiled Binary
+**/a.exe*
+**/a.out*
+
+build/
+
+# Generated Output
+**/test_output.txt
+
+# Miscellaneous
+**/.DS_Store

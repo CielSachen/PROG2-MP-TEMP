@@ -1,0 +1,28 @@
+{
+  // Text Editor
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "files.insertFinalNewline": true,
+
+  // C Support
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "C_Cpp.default.cStandard": "c99",
+  "C_Cpp.default.includePath": ["${workspaceFolder}/build/**", "${workspaceFolder}/include"],
+  "C_Cpp.doxygen.generatedStyle": "/**",
+  "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+
+  // Prettier Extension
+  "prettier.printWidth": 100,
+
+  // C Files Only Settings
+  "[c]": {
+    // Text Editor
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.tabSize": 4
+  }
+}
